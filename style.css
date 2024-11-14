@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: white;
+    background-color: rgba(6, 6, 6, 0.972);
+    text-align: center;
+    font-family: "Sour Gummy";
+}
+main {
+    margin-top: 2rem;
+}
+h1 {
+    font-size: 3rem;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #BEB7A4;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 7px #ff80119a;
+    font-size: 13vmin;
+    color: #fe0404e2;
+}
+
+#reset-btn {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #ff8011d0;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+}
+
+#msg {
+font-size: 2rem;
+color: #ff8011d0
+}
+.msg-container {
+    margin-bottom: 1rem;
+}

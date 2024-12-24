@@ -4,5 +4,5 @@ A simple and interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. 
 
 ## Visit this Link to Open
 
-[Link] 👉 (https://connect-abdullah.github.io/Tic-Tac-Toe-Game/)
+[Link] 👉 (https://tictactoe-ca.netlify.app/)
 

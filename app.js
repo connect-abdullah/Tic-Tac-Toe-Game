@@ -58,6 +58,10 @@ const checkWinner = () => {
                 console.log("winner")
                 showWinner(pos1Val)
             }
+            if (pos1Val !== pos2Val && pos2Val !== pos3Val) {
+                console.log("Tie")
+                tie()
+            }
         }
     }
 }
@@ -67,6 +71,11 @@ const showWinner = (winner) => {
     msg.innerText = `Congratulations, Winner is ${winner}`;
     msgContainer.classList.remove("hide");
     disableBoxes();
+}
+const tie = () => {
+  msg.innerText = `Its a Tie`;
+  msgContainer.classList.remove("hide");
+  disableBoxes();
 }
 
 // To Disable and Enable boxes after the game is finished or reset.
